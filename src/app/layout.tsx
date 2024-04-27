@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import icims from "@/../public/icims.png"
+import Image from "next/image"
 import { Inter } from "next/font/google";
 import "./globals.css";
+import IMG from "@../../../public/abstract-flow-background-with-flowing-lines.jpg"
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +23,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={` overflow-x-hidden ${inter.className}`}>
+
+            <header className="py-5 px-11 bg-transparent">
+              
+            <Header/>
+    
+            </header>
+                  
+                    {children}
+                
+        
+        
+        </body>
     </html>
   );
 }
