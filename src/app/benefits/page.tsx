@@ -74,7 +74,7 @@ const page = () => {
             </div>
             <div className="max-w-screen-2xl relative -top-64 mx-auto px-6 lg:px-9  pt-52 sm:pt-64 grid grid-cols-1 lg:grid-cols-2">
                 <div className="cols-span-1   sm:px-10">
-                <h2 className="text-xl about8:text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold pt-16 text-gray-700">Tired Referral Bonus Program</h2>
+                <h2 className="text-xl about8:text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold pt-16 text-gray-800">Tired Referral Bonus Program</h2>
                 <p className="pt-5 sm:pr-9 text-[13px] about8:text-base sm:text-lg text-gray-500">IMG encourages all employees to refer qualified job applicants for available job openings. When making referrals, instruct the applicant to list the employee&apos;s name on their employment application as the referral source. IMG will pay a referral bonus in accordance with the award schedule when an individual introduces a job candidate to the Company, and that candidate is hired.</p>
                <div className="flex justify-center lg:justify-start">
                <Image src={benefits} alt="" className="pt-9 "/>

@@ -384,33 +384,33 @@ const JobBox = [
 
 
 // Component for the dropdown menu
-const JobSortDropdown: React.FC = () => {
-    const [sortedJobs, setSortedJobs] = useState<JobBox[]>(JobBox);
+// const JobSortDropdown: React.FC = () => {
+//     const [sortedJobs, setSortedJobs] = useState<JobBox[]>(JobBox);
   
-    // Function to handle sorting based on user selection
-    const handleSortChange = (sortOption: string) => {
-      let sortedJobsCopy = [...JobBox];
+//     // Function to handle sorting based on user selection
+//     const handleSortChange = (sortOption: string) => {
+//       let sortedJobsCopy = [...JobBox];
   
-      switch (sortOption) {
-        case 'Job ID (Ascending)':
-          sortedJobsCopy.sort((a, b) => a.JOBId.localeCompare(b.JOBId));
-          break;
-        case 'Job ID (Descending)':
-          sortedJobsCopy.sort((a, b) => b.JOBId.localeCompare(a.JOBId));
-          break;
-        case 'Job Title (Ascending)':
-          sortedJobsCopy.sort((a, b) => a.head.localeCompare(b.head));
-          break;
-        case 'Job Title (Descending)':
-          sortedJobsCopy.sort((a, b) => b.head.localeCompare(a.head));
-          break;
-        default:
-          break;
-      }
+//       switch (sortOption) {
+//         case 'Job ID (Ascending)':
+//           sortedJobsCopy.sort((a, b) => a.JOBId.localeCompare(b.JOBId));
+//           break;
+//         case 'Job ID (Descending)':
+//           sortedJobsCopy.sort((a, b) => b.JOBId.localeCompare(a.JOBId));
+//           break;
+//         case 'Job Title (Ascending)':
+//           sortedJobsCopy.sort((a, b) => a.head.localeCompare(b.head));
+//           break;
+//         case 'Job Title (Descending)':
+//           sortedJobsCopy.sort((a, b) => b.head.localeCompare(a.head));
+//           break;
+//         default:
+//           break;
+//       }
   
-      setSortedJobs(sortedJobsCopy);
-    };
-}
+//       setSortedJobs(sortedJobsCopy);
+//     };
+// }
 
 
 
@@ -463,19 +463,19 @@ const OpenPage = () => {
 {/* <br/><span className='text-blue-600'>Easily</span> & Fast */}
 </h2> 
 <div className="flex justify-center">
-    <p className='text-center jobo1:w-full about8:text-[16px] text-[14px] w-[670px] mt-1'>Our current job openings are listed on this page. Please click on the job title for more information, and apply from that page if you are interested.
+    <p className='text-center jobo1:w-full about8:text-[16px] text-gray-700 text-[14px] w-[670px] mt-1'>Our current job openings are listed on this page. Please click on the job title for more information, and apply from that page if you are interested.
 
 </p>
 </div>
 
-<p className='text-center mt-1 about8:text-[16px] text-[14px]'>Use this <span className='text-blue-600'>form</span> to perform another job search <span className='text-blue-600'>Start your job</span> search here</p>
+<p className='text-center mt-1 about8:text-[16px] text-gray-700  text-[14px]'>Use this <span className='text-blue-600'>form</span> to perform another job search <span className='text-blue-600'>Start your job</span> search here</p>
 </div>
 <div>
  <div className='flex gap-3 about8:gap-6'>
  <div className='rounded-full border h-[60px] about8:h-[80px] mt-14 shadow-md shadow-gray-400  w-[90%] px-2 about8:px-5 py-2 about8:py-5'><Input className="border-0 outline-none
                   focus-visible:ring-0 focus-visible:ring-transparent" placeholder='Start your Job Search here'/>
 </div>
-<button className='sm:px-14 py-5 px-10 bg-blue-600 hover:bg-blue-500 hover:shadow-2xl mt-14 text-white rounded-full'>Search</button>
+<button className='sm:px-14 py-5 px-10 bg-blue-600 hover:bg-blue-500  mt-14 text-white rounded-full'>Search</button>
 
  </div>
 <div className='flex sm:gap-7 gap-2'>
@@ -540,7 +540,7 @@ const OpenPage = () => {
 <div className='flex justify-end'>
  
   <div className='justify-end my-10 jobo2:my-0'>  
-<h2 className='pr-56 justify-end  '>Sort By</h2>
+<h2 className='pr-44  achieve10:pr-56 justify-end  '>Sort By</h2>
 
 {/* <Select>
 <SelectTrigger className="w-[280px] focus-visible:ring-0 focus-visible:ring-transparent h-[60px] rounded-full   shadow-md shadow-gray-400 border  mt-2">
@@ -558,7 +558,7 @@ const OpenPage = () => {
 </SelectContent>
 </Select> */}
 <Select>
-<SelectTrigger className="w-[280px] focus-visible:ring-0 focus-visible:ring-transparent h-[60px] rounded-full   shadow-md shadow-gray-400 border  mt-2">
+<SelectTrigger className="w-full achieve10:w-[280px] focus-visible:ring-0 focus-visible:ring-transparent h-[60px] rounded-full   shadow-md shadow-gray-400 border  mt-2">
   <SelectValue  placeholder="Sort By..."/>
 </SelectTrigger>
 <SelectContent>
@@ -575,7 +575,7 @@ const OpenPage = () => {
 </div>
 </div>
 
-   <div>
+   <div >
    <Job_box />
    
    </div>

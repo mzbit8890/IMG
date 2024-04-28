@@ -116,7 +116,7 @@ const Page = () => {
    </div>
 <Wrapper>
         <div className='mt-16 sm:mt-24 lg:mt-0 text-left bg-blue-50/100 mb-4 sm:mx-6 pt-5 rounded-2xl'>
-            <h2 className='text-[22px]/[1.29] lg:text-5xl sm:text-3xl md:text-4xl font-semibold  mt-12 sm:mt-16 text-balance text-center px-5 lg:px-[136px]'>IT Operations and <span className='text-blue-600'>Management </span>Services</h2>
+            <h2 className='text-[22px]/[1.29] lg:text-5xl text-gray-800 sm:text-3xl md:text-4xl font-semibold  mt-12 sm:mt-16 text-balance text-center px-5 lg:px-[136px]'>IT Operations and <span className='text-blue-600'>Management </span>Services</h2>
             <div className='flex justify-center'>
             <div className='w-[95%] grid  my-16 grid-cols-1 md:grid-cols-2 div1:grid-cols-3 gap-10 '>
             {
@@ -130,7 +130,7 @@ const Page = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }} className='  border rounded-lg  bg-white shadow-xl border-gray-300/50 px-5 pb-11'
                     key={items.id}>
-                          <ol className='mt-10 text-[16px] sm:text-[18px]'>
+                          <ol className='mt-10 text-[16px] text-gray-600 sm:text-[18px]'>
                           <li className=''> <Image src={items.img} alt="Icons" width={30} height={30} className=' text-center'/></li>
                            <li className='text-[20px] sm:text-2xl  mt-7 text-blue-600 font-semibold text-left'> {items.heading}</li>
                            <li className='mt-5 '>{items.points1}</li>

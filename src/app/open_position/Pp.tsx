@@ -32,7 +32,7 @@ const Pp = () => {
 {
     JobBox.map((items,key) => {
         return (
-            <div key={item.JOBId} className="border rounded-3xl px-6 pb-5 mt-5 bg-blue-50/100 shadow-md hover:shadow-lg transition duration-200 hover:border-blue-300 hover:border-1 ease-in-out mx-24">
+            <div key={items.JOBId} className="border rounded-3xl px-6 pb-5 mt-5 bg-blue-50/100 shadow-md hover:shadow-lg transition duration-200 hover:border-blue-300 hover:border-1 ease-in-out mx-24">
   <div className="mt-8 flex gap-7">
     <h2 className=" text-blue-600 text-sm px-2 py-1 rounded-full">{items.JOBId}</h2>
     <h2 className="bg-sky-100 text-sm text-blue-600  px-2 py-1 rounded-full">{items.Loc}</h2>

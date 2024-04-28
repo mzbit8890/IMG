@@ -95,14 +95,14 @@ Do you know somebody whom you feel would be interested in joining our team? Plea
 <h2 className='sm:text-5xl/tight text-4xl/tight mt-20 about8:mt-32 font-bold text-gray-800 text-center gap-3'>Job Listin<span className='text-blue-600'>gs</span>
 {/* <br/><span className='text-blue-600'>Easily</span> & Fast */}
 </h2> 
-<p className='text-center text-[13px] about8:text-[16px] mt-1'>You can  <Link href='/open_position' className='text-blue-600 underline'>view all open positions</Link> or use the following search form to find jobs that suit your specific career interests.</p>
+<p className='text-center text-[13px] about8:text-[16px] mt-1 text-gray-600'>You can  <Link href='/open_position' className='text-blue-600 underline'>view all open positions</Link> or use the following search form to find jobs that suit your specific career interests.</p>
 </div>
 <div>
  <div className='flex gap-3 about8:gap-6'>
  <div className='rounded-full border mt-14 shadow-md shadow-gray-400 h-[60px] about8:h-[80px]  w-[90%] px-2 about8:px-5 py-2 about8:py-5'><Input className="border-0 outline-none
                   focus-visible:ring-0 focus-visible:ring-transparent" placeholder='Start your Job Search here'/>
 </div>
-<button className='sm:px-14 py-5 px-10 bg-blue-600 hover:bg-blue-500 hover:shadow-2xl mt-14 text-white rounded-full'>Search</button>
+<button className='sm:px-14 py-5 px-10 bg-blue-600 hover:bg-blue-500  mt-14 text-white rounded-full'>Search</button>
 
  </div>
 <div className='flex sm:gap-7 gap-2'>

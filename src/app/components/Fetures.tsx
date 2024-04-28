@@ -1,14 +1,14 @@
-// // import Image from "next/image"
-// import first from "@../../../public/girl-2583442_1280.jpg"
-// import mission from "@/app/components/assets/mission.png"
+// import Image from "next/image"
+import first from "@../../../public/girl-2583442_1280.jpg"
+import mission from "@/app/components/assets/mission.png"
 
-// import {
-//     Carousel,
-//     CarouselContent,
-//     CarouselItem,
-//     CarouselNext,
-//     CarouselPrevious,
-// } from "@/components/ui/carousel"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel"
 
 
 
@@ -115,63 +115,63 @@
 
 // // export default TextAndBoxesSection;
 
-// import React from 'react';
-// import Link from "next/link";
-// import Image from 'next/image';
-// import { ArrowRight } from "lucide-react"
+import React from 'react';
+import Link from "next/link";
+import Image from 'next/image';
+import { ArrowRight } from "lucide-react"
 
-// import image1 from "@/../public/Wbg.png"
-// import image2 from "@/../public/HireVet.png"
-// import image3 from "@/../public/HVMPD-gold_2023.png"
-// import image4 from "@/../public/WBJ2022.png"
-// import image5 from "@/../public/2023.png"
+import image1 from "@/../public/Wbg.png"
+import image2 from "@/../public/HireVet.png"
+import image3 from "@/../public/HVMPD-gold_2023.png"
+import image4 from "@/../public/WBJ2022.png"
+import image5 from "@/../public/2023.png"
 
-// let smallBoxes4 = {
-//     heading4: "CyberSecurity Companies",
-//     subHeading4: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
-//     image4: image1,
-//     link4: "/News"
-// }
+let smallBoxes4 = {
+    heading4: "CyberSecurity Companies",
+    subHeading4: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
+    image4: image1,
+    link4: "/News"
+}
 
-// let smallBoxes1 = [
-//     {
-//         heading: "",
-//         subHeading: "",
-//         image1: image2,
-//         link: "https://www.hirevets.gov/awardees_table?created=2&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
-//     },
-//     {
-//         heading: "",
-//         subHeading: "",
-//         image1: image3,
-//         link: "https://www.hirevets.gov/awardees_table?created=1&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
-//     },
-//     {
-//         heading: "",
-//         subHeading: "",
-//         image1: image4,
-//         link: "https://dvsv3.com/"
-//     },
-//     {
-//         heading: "CyberSecurity Companies",
-//         subHeading: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
-//         image1: image1,
-//         link: "https://dvsv3.com/"
-//     },
-//     {
-//         heading: "",
-//         subHeading: "",
-//         image1: image5,
-//         link: "https://vetsindexes.com/award-results-2023/"
-//     },
+let smallBoxes1 = [
+    {
+        heading: "",
+        subHeading: "",
+        image1: image2,
+        link: "https://www.hirevets.gov/awardees_table?created=2&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
+    },
+    {
+        heading: "",
+        subHeading: "",
+        image1: image3,
+        link: "https://www.hirevets.gov/awardees_table?created=1&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
+    },
+    {
+        heading: "",
+        subHeading: "",
+        image1: image4,
+        link: "https://dvsv3.com/"
+    },
+    {
+        heading: "CyberSecurity Companies",
+        subHeading: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
+        image1: image1,
+        link: "https://dvsv3.com/"
+    },
+    {
+        heading: "",
+        subHeading: "",
+        image1: image5,
+        link: "https://vetsindexes.com/award-results-2023/"
+    },
 
-// ]
+]
 
-// import CarouselText3, { CarouselText, CarouselText2, CarouselText4, CarouselText5, CarouselText6, CarouselText7, CarouselText8 } from "./carouselText"
-// import { MotionDiv } from "./MotionImg"
+import CarouselText3, { CarouselText, CarouselText2, CarouselText4, CarouselText5, CarouselText6, CarouselText7, CarouselText8 } from "./CarouselText45"
+import { MotionDiv } from "./MotionImg"
 
-// const TextAndBoxesSection = () => {
-//     return (
+const TextAndBoxesSection = () => {
+    return (
 //         //         <div className="bg-blue-50/80 lg:flex max-w-screen-2xl sm:mx-auto ">
 //         //             {/* Left Side (Fixed) */}
 //         //             <div className="lg:w-1/2 lg:sticky lg:top-0 lg:h-screen ">
@@ -230,123 +230,6 @@
 //         //         </div>
 
 
-//         <div className="bg-blue-50/80 flex flex-col items-center pb-8 lg:pb-5">
-
-//             <div className="pt-[70px] lg:pt-[118px] max-w-screen-2xl mx-auto px-3 about8:px-6 xl:px-9 ">
-//                 <div className="about8:px-4 home4:px-11">
-//                     <h2 className="text-[22px]/[1.24] head3:text-[30px]/[1.24] feat11:text-[35px] about8:text-[40px] feat3:text-[47px] feat10:text-[56px] lg:text-6xl text-center text-blue-600 font-bold">Features <span className="text-blue-600">Over</span><span className="text-yellow-500">view</span></h2>
-//                     <p className="text-gray-500 text-center mt-3 text-balance mb-10 text-[13px] feat10:text-[15px] lg:text-[17px]">IMG empowers businesses to optimize their data assets and drive success in today&apos;s competitive landscape
-//                         Dive into a world of limitless potential with our feature set, meticulously crafted to cater to your every need.
-//                     </p>
-//                     {/* <Carousel className="w-full max-w-3xl"> */}
-//                     <div className="flex justify-center ">
-//                         <Carousel className="w-full max-w-[10rem] feat12:max-w-[11rem] feat7:max-w-[12rem] feat6:max-w-[13rem] feat5:max-w-[15rem] feat4:max-w-[19rem] feat3:max-w-[27rem] about7:max-w-xl mdds:max-w-2xl ab:max-w-4xl jj:max-w-6xl ">
-//                             <MotionDiv initial={{
-//                         opacity: 0,
-//                         y: -100
-//                     }}
-//                     transition={{ duration: 1.2 }}
-//                     whileInView={{ opacity: 1, y: 0 }}  viewport={{ once: true }} > <CarouselContent >
-                           
-//                                 <CarouselItem >
-//                                     <CarouselText />
-//                                 </CarouselItem>
-//                                 <CarouselItem >
-                                    
-//                                     <CarouselText2 />
-//                                 </CarouselItem>
-//                                 <CarouselItem><CarouselText4 /></CarouselItem>
-//                                 <CarouselItem><CarouselText5 /></CarouselItem>
-//                                 <CarouselItem><CarouselText6 /></CarouselItem>
-//                                 <CarouselItem><CarouselText7 /></CarouselItem>
-//                                 <CarouselItem><CarouselText8 /></CarouselItem>
-                              
-//                             </CarouselContent>  </MotionDiv>
-//                             <CarouselPrevious />
-//                             <CarouselNext />
-//                         </Carousel>
-
-
-                
-//                     </div>
-                  
-
-
-
-
-//                 </div>
-
-//             </div>
-//         </div>
-
-//     );
-// };
-
-// export default TextAndBoxesSection;
-
-
-
-
-
-// Fetures.tsx
-
-import React from 'react';
-import Link from "next/link";
-import Image from 'next/image';
-import { ArrowRight } from "lucide-react"
-
-import image1 from "@/../public/Wbg.png"
-import image2 from "@/../public/HireVet.png"
-import image3 from "@/../public/HVMPD-gold_2023.png"
-import image4 from "@/../public/WBJ2022.png"
-import image5 from "@/../public/2023.png"
-
-let smallBoxes4 = {
-    heading4: "CyberSecurity Companies",
-    subHeading4: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
-    image4: image1,
-    link4: "/News"
-}
-
-let smallBoxes1 = [
-    {
-        heading: "",
-        subHeading: "",
-        image1: image2,
-        link: "https://www.hirevets.gov/awardees_table?created=2&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
-    },
-    {
-        heading: "",
-        subHeading: "",
-        image1: image3,
-        link: "https://www.hirevets.gov/awardees_table?created=1&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
-    },
-    {
-        heading: "",
-        subHeading: "",
-        image1: image4,
-        link: "https://dvsv3.com/"
-    },
-    {
-        heading: "CyberSecurity Companies",
-        subHeading: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
-        image1: image1,
-        link: "https://dvsv3.com/"
-    },
-    {
-        heading: "",
-        subHeading: "",
-        image1: image5,
-        link: "https://vetsindexes.com/award-results-2023/"
-    },
-];
-
-import CarouselText3, { CarouselText, CarouselText2, CarouselText4, CarouselText5, CarouselText6, CarouselText7, CarouselText8 } from "./CarouselText";
-import { MotionDiv } from "./MotionImg";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-
-const TextAndBoxesSection = () => {
-    return (
         <div className="bg-blue-50/80 flex flex-col items-center pb-8 lg:pb-5">
 
             <div className="pt-[70px] lg:pt-[118px] max-w-screen-2xl mx-auto px-3 about8:px-6 xl:px-9 ">
@@ -355,6 +238,7 @@ const TextAndBoxesSection = () => {
                     <p className="text-gray-500 text-center mt-3 text-balance mb-10 text-[13px] feat10:text-[15px] lg:text-[17px]">IMG empowers businesses to optimize their data assets and drive success in today&apos;s competitive landscape
                         Dive into a world of limitless potential with our feature set, meticulously crafted to cater to your every need.
                     </p>
+                    {/* <Carousel className="w-full max-w-3xl"> */}
                     <div className="flex justify-center ">
                         <Carousel className="w-full max-w-[10rem] feat12:max-w-[11rem] feat7:max-w-[12rem] feat6:max-w-[13rem] feat5:max-w-[15rem] feat4:max-w-[19rem] feat3:max-w-[27rem] about7:max-w-xl mdds:max-w-2xl ab:max-w-4xl jj:max-w-6xl ">
                             <MotionDiv initial={{
@@ -368,6 +252,7 @@ const TextAndBoxesSection = () => {
                                     <CarouselText />
                                 </CarouselItem>
                                 <CarouselItem >
+                                    
                                     <CarouselText2 />
                                 </CarouselItem>
                                 <CarouselItem><CarouselText4 /></CarouselItem>
@@ -378,13 +263,166 @@ const TextAndBoxesSection = () => {
                               
                             </CarouselContent>  </MotionDiv>
                             <CarouselPrevious />
-                          
+                            <CarouselNext />
                         </Carousel>
+
+
+                
                     </div>
+                  
+
+
+
+
                 </div>
+
             </div>
         </div>
+
     );
 };
 
 export default TextAndBoxesSection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Fetures.tsx
+
+// import React from 'react';
+// import Link from "next/link";
+// import Image from 'next/image';
+// import { ArrowRight } from "lucide-react"
+
+// import image1 from "@/../public/Wbg.png"
+// import image2 from "@/../public/HireVet.png"
+// import image3 from "@/../public/HVMPD-gold_2023.png"
+// import image4 from "@/../public/WBJ2022.png"
+// import image5 from "@/../public/2023.png"
+
+// let smallBoxes4 = {
+//     heading4: "CyberSecurity Companies",
+//     subHeading4: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
+//     image4: image1,
+//     link4: "/News"
+// }
+
+// let smallBoxes1 = [
+//     {
+//         heading: "",
+//         subHeading: "",
+//         image1: image2,
+//         link: "https://www.hirevets.gov/awardees_table?created=2&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
+//     },
+//     {
+//         heading: "",
+//         subHeading: "",
+//         image1: image3,
+//         link: "https://www.hirevets.gov/awardees_table?created=1&field_application_type_value%5B2%5D=2&field_application_type_value_1%5B1%5D=1&field_employer_name_value=&field_employer_state_value=47"
+//     },
+//     {
+//         heading: "",
+//         subHeading: "",
+//         image1: image4,
+//         link: "https://dvsv3.com/"
+//     },
+//     {
+//         heading: "CyberSecurity Companies",
+//         subHeading: "Information Management Group Earns Place on Washington Business Journal's Cybersecurity Companies List",
+//         image1: image1,
+//         link: "https://dvsv3.com/"
+//     },
+//     {
+//         heading: "",
+//         subHeading: "",
+//         image1: image5,
+//         link: "https://vetsindexes.com/award-results-2023/"
+//     },
+// ];
+
+// import CarouselText3, { CarouselText, CarouselText2, CarouselText4, CarouselText5, CarouselText6, CarouselText7, CarouselText8 } from "./carouselText";
+// import { MotionDiv } from "./MotionImg";
+// import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+
+// const TextAndBoxesSection = () => {
+//     return (
+//         <div className="bg-blue-50/80 flex flex-col items-center pb-8 lg:pb-5">
+
+//             <div className="pt-[70px] lg:pt-[118px] max-w-screen-2xl mx-auto px-3 about8:px-6 xl:px-9 ">
+//                 <div className="about8:px-4 home4:px-11">
+//                     <h2 className="text-[22px]/[1.24] head3:text-[30px]/[1.24] feat11:text-[35px] about8:text-[40px] feat3:text-[47px] feat10:text-[56px] lg:text-6xl text-center text-blue-600 font-bold">Features <span className="text-blue-600">Over</span><span className="text-yellow-500">view</span></h2>
+//                     <p className="text-gray-500 text-center mt-3 text-balance mb-10 text-[13px] feat10:text-[15px] lg:text-[17px]">IMG empowers businesses to optimize their data assets and drive success in today&apos;s competitive landscape
+//                         Dive into a world of limitless potential with our feature set, meticulously crafted to cater to your every need.
+//                     </p>
+//                     <div className="flex justify-center ">
+//                         <Carousel className="w-full max-w-[10rem] feat12:max-w-[11rem] feat7:max-w-[12rem] feat6:max-w-[13rem] feat5:max-w-[15rem] feat4:max-w-[19rem] feat3:max-w-[27rem] about7:max-w-xl mdds:max-w-2xl ab:max-w-4xl jj:max-w-6xl ">
+//                             {/* <MotionDiv initial={{
+//                         opacity: 0,
+//                         y: -100
+//                     }}
+//                     transition={{ duration: 1.2 }}
+//                     whileInView={{ opacity: 1, y: 0 }}  viewport={{ once: true }} >  */}
+//                            <CarouselContent >
+//                                 <CarouselItem >
+//                                     <CarouselText />
+//                                 </CarouselItem>
+//                                 <CarouselItem >
+//                                     <CarouselText />
+//                                 </CarouselItem>
+//                                 <CarouselItem><CarouselText4 /></CarouselItem>
+//                                 <CarouselItem><CarouselText5 /></CarouselItem>
+//                                 <CarouselItem><CarouselText6 /></CarouselItem>
+//                                 <CarouselItem><CarouselText7 /></CarouselItem>
+//                                 <CarouselItem><CarouselText8 /></CarouselItem>
+                              
+//                             </CarouselContent> 
+//                              {/* </MotionDiv> */}
+//                             <CarouselPrevious />
+                          
+//                         </Carousel>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default TextAndBoxesSection;
