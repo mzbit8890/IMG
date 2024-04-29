@@ -10,6 +10,7 @@ import cyber from "@../../../public/cyber-security.png"
 import system from "@../../../public/system-administration.png"
 import visual from "@../../../public/database-management.png"
 import Footer from '../components/Footer'
+import support from './support.png'
 import { MotionDiv } from '../components/MotionImg'
 
 const Box = [
@@ -115,10 +116,10 @@ const Page = () => {
     <Image src={Folder} alt="" className="" />
    </div>
 <Wrapper>
-        <div className='mt-16 sm:mt-24 lg:mt-0 text-left bg-blue-50/100 mb-4 sm:mx-6 pt-5 rounded-2xl'>
+        <div className='mt-16 sm:mt-24 pb-16 lg:mt-0 text-left bg-blue-50/100  sm:mx-6 pt-5 rounded-2xl'>
             <h2 className='text-[22px]/[1.29] lg:text-5xl text-gray-800 sm:text-3xl md:text-4xl font-semibold  mt-12 sm:mt-16 text-balance text-center px-5 lg:px-[136px]'>IT Operations and <span className='text-blue-600'>Management </span>Services</h2>
             <div className='flex justify-center'>
-            <div className='w-[95%] grid  my-16 grid-cols-1 md:grid-cols-2 div1:grid-cols-3 gap-10 '>
+            <div className='w-[95%] grid  mt-16 grid-cols-1 md:grid-cols-2 div1:grid-cols-3 gap-10 '>
             {
                 Box.map((items,i,key) => {
                     return (
@@ -128,7 +129,7 @@ const Page = () => {
                     }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }} className='  border rounded-lg  bg-white shadow-xl border-gray-300/50 px-5 pb-11'
+                    viewport={{ once: true }} className='  border rounded-lg  bg-white shadow-xl border-gray-300/50 px-5 pb-2'
                     key={items.id}>
                           <ol className='mt-10 text-[16px] text-gray-600 sm:text-[18px]'>
                           <li className=''> <Image src={items.img} alt="Icons" width={30} height={30} className=' text-center'/></li>
@@ -148,9 +149,12 @@ const Page = () => {
                 })
             }
             </div>
-          </div>
-        </div>
-   
+          </div> 
+        </div><div className=' '>
+                <h2 className='text-[22px]/[1.29] lg:text-5xl text-gray-800 sm:text-3xl md:text-4xl font-semibold  mt-12 sm:mt-16 text-balance text-center'>Who We Support?</h2>
+                <Image src={support} alt="Img support" className='mt-2 about8:mt-4'/>
+            </div>
+           
    </Wrapper>
 
    <div className='mt-16'>
