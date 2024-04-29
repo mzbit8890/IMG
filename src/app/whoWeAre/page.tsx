@@ -91,7 +91,7 @@ const page = () => {
               <Image src={pro} alt="" className="pb-6 about5:pb-0 relative hidden mx-6 about5:mx-0 about5:block about5:right-5 h-[478px] about5:h-full object-cover about5:-top-0  about5:w-[500px] about3:w-[530px] about1:w-[620px]  border-[10px] border-cyan-400"/>
              <div className="about3:hidden block px-3 job6:px-6 about5:pr-6  xl:pr-9">
               <div className="flex justify-center">
-  <h2 className="text-[22px]/[1.29] w-[545px] about6:w-full about8:text-[30px]/[1.29] about8:text-center about3:text-left about4:text-[33px]/[1.29] about2:text-[34px]/[1.29] about1:text-4xl/[1.29] text-blue-600 font-bold">
+  <h2 className="text-[22px]/[1.29] w-[545px] about6:w-full about8:text-[30px]/[1.29] about8:text-center about5:text-left about4:text-[33px]/[1.29] about2:text-[34px]/[1.29] about1:text-4xl/[1.29] text-blue-600 font-bold">
                 Information Management Group, Inc.<span className="text-gray-300  about3:text-gray-700"> (IMG) was founded in </span>1987.
               </h2>
               </div>

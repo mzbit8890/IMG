@@ -14,6 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Information Management Group, Inc.",
   description: "imgva.com",
+  icons:["/favicon.ico?v==4"]
 };
 
 export default function RootLayout({
